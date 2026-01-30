@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Card, CardContent, Box } from "@mui/material";
 import {
   ResponsiveContainer,

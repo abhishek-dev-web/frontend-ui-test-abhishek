@@ -102,9 +102,8 @@ export default function Topbar({ variant = "light" }: TopbarProps) {
         </div>
 
         <button
-          className={`flex items-center gap-1 text-xs font-bold ${
-            isDark ? "text-white" : "text-[#718096]"
-          }`}
+          className={`flex items-center gap-1 text-xs font-bold ${isDark ? "text-white" : "text-[#718096]"
+            }`}
         >
           <svg width="12" height="12" viewBox="0 0 12 12" fill={iconColor}>
             <path d="M6 0.75a3 3 0 100 6 3 3 0 000-6zM1.5 11.25c0-2.5 3-3.75 4.5-3.75s4.5 1.25 4.5 3.75H1.5z" />
@@ -112,7 +111,7 @@ export default function Topbar({ variant = "light" }: TopbarProps) {
           Sign In
         </button>
 
-                <svg
+        <svg
           width="12"
           height="12"
           viewBox="0 0 12 12"

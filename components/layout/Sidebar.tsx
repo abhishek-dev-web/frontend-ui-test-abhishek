@@ -225,19 +225,17 @@ export default function Sidebar() {
                 key={link.href}
                 href={link.href}
                 className={`flex items-center gap-3 px-4 py-2 rounded-xl text-sm font-semibold transition
-                    ${
-                      active
-                        ? "bg-white text-black"
-                        : "text-[#A0AEC0] hover:bg-gray-100"
-                    }`}
+                    ${active
+                    ? "bg-white text-black"
+                    : "text-[#A0AEC0] hover:bg-gray-100"
+                  }`}
               >
                 <span
                   className={`flex items-center justify-center w-8 h-8 rounded-xl transition-all
-                      ${
-                        active
-                          ? "bg-[#4FD1C5] text-white"
-                          : "bg-white text-[#4FD1C5]"
-                      }`}
+                      ${active
+                      ? "bg-[#4FD1C5] text-white"
+                      : "bg-white text-[#4FD1C5]"
+                    }`}
                 >
                   {link.icon}
                 </span>
@@ -260,18 +258,16 @@ export default function Sidebar() {
                   key={link.href}
                   href={link.href}
                   className={`flex items-center gap-3 px-4 py-2 rounded-xl text-sm font-semibold transition
-                    ${
-                      active
-                        ? "bg-white text-black"
-                        : "text-[#A0AEC0] hover:bg-gray-100"
+                    ${active
+                      ? "bg-white text-black"
+                      : "text-[#A0AEC0] hover:bg-gray-100"
                     }`}
                 >
                   <span
                     className={`flex items-center justify-center w-8 h-8 rounded-xl transition-all
-                      ${
-                        active
-                          ? "bg-[#4FD1C5] text-white"
-                          : "bg-white text-[#4FD1C5]"
+                      ${active
+                        ? "bg-[#4FD1C5] text-white"
+                        : "bg-white text-[#4FD1C5]"
                       }`}
                   >
                     {link.icon}
